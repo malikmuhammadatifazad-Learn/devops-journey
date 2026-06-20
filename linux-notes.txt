@@ -1,0 +1,18 @@
+=== Linux Permissions Cheat Sheet ===
+
+r = 4 (read)
+w = 2 (write)  
+x = 1 (execute)
+
+755 = rwxr-xr-x → scripts and folders
+644 = rw-r--r-- → normal files
+600 = rw------- → SSH keys and secrets
+777 = NEVER USE → too dangerous
+
+Commands:
+chmod 755 file    → change permissions
+chown user:group  → change owner
+ls -la            → see permissions
+whoami            → who am I
+id                → my user details
+groups            → my groups
