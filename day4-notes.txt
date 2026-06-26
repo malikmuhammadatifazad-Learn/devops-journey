@@ -1,0 +1,13 @@
+=== Day 4 Notes ===
+
+Commands learned:
+- ps aux          → see all processes
+- htop            → visual process monitor  
+- systemctl       → manage services
+- crontab -e      → schedule automation
+- ssh-keygen      → generate SSH keys
+
+Cron job added:
+0 2 * * * backup.sh runs every night at 2am
+
+SSH key added to GitHub — no more passwords!
